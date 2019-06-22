@@ -1,0 +1,10 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+      height: 100%;
+      font-size: 100%;
+     /* font: 14px/18px 'Times New Roman', Times, sans-serif;*/
+      background-color: #fff;
+  }
