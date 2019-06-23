@@ -2,19 +2,6 @@
 
 This gulp template allows you to build your project with concat, minify, autoprefex and live reload CSS, JS and HTML files.
 
-## Struct
-
->./gulpfile.js  
->./package.json  
->./index.html  
->./src  
->>	/css  
->>>		/main.css  
->>>		/media.css  
->>	/js  
->>>		/lib.js  
->>>		/main.js  
-
 ## Installation
 
 Clone project to your project folder.
@@ -40,13 +27,22 @@ Install all necessary packages (be sure you've installed [NodeJS](https://nodejs
 ### Watching and live reload
 
 ~~~
-  gulp dev
+  gulp
+~~~
+
+### Clean ./build
+
+~~~
+  gulp clean
 ~~~
 
 ## TODO
 
-- [ ] Autocompiler for sass/less files.
-- [ ] Autosearch js and css files in project folder.
+- [X] Autocompiler for sass/scss files.
+- [X] Add plugin for minify images.
+- [X] Add gulp-sourcemap for CSS and JS files.
+- [X] You can connect your html templates with gulp-rigger.
+- [ ] Configure the queue in which gulp-rigger loads JS and CSS files. 
 
 
 
