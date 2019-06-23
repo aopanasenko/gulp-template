@@ -45,7 +45,7 @@ Install all necessary packages (be sure you've installed [NodeJS](https://nodejs
 
 ## TODO
 
-- [ ] Autocompile for sass/less files.
+- [ ] Autocompiler for sass/less files.
 - [ ] Autosearch js and css files in project folder.
 
 
