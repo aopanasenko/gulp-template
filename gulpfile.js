@@ -59,13 +59,3 @@ gulp.task('clean', () => {
 // Final task for building and watching the project
 gulp.task('dev', gulp.series('clean', gulp.parallel('styles', 'scripts'), 'watch'));
 gulp.task('build', gulp.series('clean', gulp.parallel('styles', 'scripts')));
-
-
-/**
- TODO: 
- - стрелочные функции
- - компиляция sass
- - решить вопрос с передачей названий файлов в таски
- - загрузить на гитхаб 
- FIXM
- */
